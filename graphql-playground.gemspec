@@ -11,12 +11,14 @@ Gem::Specification.new do |spec|
   spec.email       = ["panjie@growingio.com"]
   spec.homepage    = "https://github.com/jack0pan/graphql-playground-rails"
   spec.summary     = "A mountable GraphQL Playground endpoint for Rails."
-  spec.description = "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)"
+  spec.description = "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs)"
   spec.license     = "MIT"
+  spec.required_ruby_version = '>= 2.1.0'
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "~> 5.2.3"
+  spec.add_dependency "railties", ">= 4.1.0"
 
-  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "rails", ">= 4.1.0"
+  spec.add_development_dependency "sqlite3", "~> 1.3", ">= 1.3.11"
 end
