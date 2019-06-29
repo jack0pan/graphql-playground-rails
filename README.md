@@ -1,5 +1,5 @@
 # GraphQL Playground
-Mount the (GraphQL Playground)[https://github.com/prisma/graphql-playground] in Ruby on Rails.
+Mount the [GraphQL Playground](https://github.com/prisma/graphql-playground) in Ruby on Rails.
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -31,8 +31,8 @@ Rails.application.routes.draw do
 end
 ```
 
-- at: is the path where GraphiQL will be served. You can access GraphiQL by visiting that path in your app.
-- graphql_path: is the path to the GraphQL endpoint. GraphiQL will send queries to this path.
+- at: is the path where GraphQL Playground will be served. You can access GraphQL Playground by visiting that path in your app.
+- graphql_path: is the path to the GraphQL endpoint. GraphQL Playground will send queries to this path.
 
 If you're using Rails 5 in "API mode", you'll also need to add require "sprockets/railtie" to your application.rb.
 
