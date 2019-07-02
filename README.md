@@ -1,6 +1,9 @@
 # GraphQL Playground
 Mount the [GraphQL Playground](https://github.com/prisma/graphql-playground) in Ruby on Rails.
 
+## Requirement
+Rails >= 5.2.0
+
 ## Installation
 Add this line to your application's Gemfile:
 
